@@ -514,7 +514,7 @@ img {
 
 
 /* PAGE HEADER
-   
+
    Reusable heading used at the top of inner pages
    like Cities, My Trips, Daily Activities */
 
@@ -579,3 +579,47 @@ img {
 }
 
 /* margin-bottom: 24px adds space before the button    */
+
+/* DAILY ACTIVITIES PAGE */
+
+.daily-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 40px;
+}
+
+/* max-width: 900px stops content stretching too wide  */
+/* margin: 40px auto centres it with space top/bottom  */
+
+
+/* Top row: title on left, buttons on right */
+.daily-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* display: flex puts title and buttons on one row     */
+/* align-items: flex-start aligns them to the top      */
+/* flex-wrap: wrap stacks them on small screens        */
+
+
+.daily-header-left h1 {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.daily-header-left p {
+  color: var(--text-mid);
+  font-size: 0.9rem;
+}
+
+.daily-header-right {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
