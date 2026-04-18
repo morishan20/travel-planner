@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Go2travelplanner - Create Account</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!--  NAVBAR-->
+  <nav class="navbar">
+
+    <a href="index.html" class="navbar-logo">
+      <span style="font-size: 1.3rem;">⊙</span>
+      Go2travelplanner
+    </a>
+    <div class="menu-toggle" onclick="toggleMenu()"> ☰</div>
+    <ul class="navbar-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cities.html">Cities</a></li>
+      <li><a href="daily-activities.html">Daily Activities</a></li>
+      <li><a href="my-trips.html">My Trips</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li>
+        <button class="dark-toggle" id="darkToggleBtn" onclick="toggleDarkMode()">🌙</button>
+      </li>
+    </ul>
+
+  </nav>
+
+
+  <!-- CREATE ACCOUNT FORM -->
+  <div class="login-page">
+
+
+    <div class="login-icon">
+      <span style="font-size: 2rem;">⊙</span>
+    </div>
+
+    <h1>Create Account</h1>
+    <p class="subtitle">Join us and start planning your dream trips</p>
+
+
+
+    <div class="login-form">
+
+      <!-- Full Name -->
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <div class="input-wrapper">
+          <span class="input-icon">👤</span>
+          <!-- for="fullName" links the label to the   -->
+          <!-- input. Clicking the label focuses input -->
+          <input type="text" id="fullName"
+                 placeholder="Enter your full name" />
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <div class="input-wrapper">
+          <span class="input-icon">✉️</span>
+
+          <input type="email" id="email"
+                 placeholder="Enter your email" />
+        </div>
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <div class="input-wrapper">
+          <span class="input-icon">🔒</span>
+          <!-- type="password" hides the typed text     -->
+          <input type="password" id="password"
+                 placeholder="Create a password" />
+        </div>
+      </div>
+
+      <!-- Confirm Password -->
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <div class="input-wrapper">
+          <span class="input-icon">🔒</span>
+          <input type="password" id="confirmPassword"
+                 placeholder="Confirm your password" />
+        </div>
+      </div>
+
+      <!-- Create Account button -->
+      <!-- onclick calls the JS validation function     -->
+      <button class="btn-teal btn-full"
+              onclick="createAccount()">
+        Create Account
+      </button>
+
+    </div>
+
+
+    <!-- Sign in link at the bottom -->
+    <p class="login-footer">
+      Already have an account?
+      <a href="Coming-soon.html">Sign in</a>
+    </p>
+
+  </div>
+
+  <!-- JS at the bottom -->
+  <script src="jaava/darkmode.js"></script>
+
+  <script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
+
+<script>
+  function createAccount() {
+    // Get form values
+    const fullName = document.getElementById("fullName").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirmPassword").value;
+
+    // Basic validation
+    if (!fullName || !email || !password || !confirmPassword) {
+      alert("Please fill in all fields.");
+      return;
+    }
+    if (!email.includes("@")) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+    if (password !== confirmPassword) {
+      alert("Passwords do not match.");
+      return;
+    }
+    if (password.length < 6) {
+      alert("Password must be at least 6 characters long.");
+      return;
+    }
+   
+  }
+</script>
+
+</body>
+</html>
