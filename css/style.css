@@ -502,7 +502,7 @@ img {
   color: var(--text-light);
   font-size: 0.8rem;
   display: block;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 /* display: block makes <small> sit on its own line    */
