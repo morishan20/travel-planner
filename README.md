@@ -1,19 +1,33 @@
 # **Website-Design-Assignment**
+## Table of contents
 
 
+## Table of Contents
+
+- [User Personas](#user-personas)
+- [User Stories](#user-stories)
+  - [Frequent User (Deshan)](#frequent-user-deshan)
+    - [System Functional Requirements](#system-functional-requirements)
+    - [Acceptance Criteria](#acceptance-criteria)
+    - [Modifying an Existing Itinerary](#modifying-an-existing-itinerary)
+    - [Adjusting Trip Details](#adjusting-trip-details)
+    - [Reviewing the Updated Plan](#reviewing-the-updated-plan)
+  - [Returning User (John)](#returning-user-john)
+    - [System Functional Requirements](#system-functional-requirements-1)
+    - [Acceptance Criteria](#acceptance-criteria-1)
+    - [Reusing Previous Trips](#reusing-previous-trips)
+    - [Updating Information](#updating-information)
+    - [Seeing Total Cost](#seeing-total-cost)
+  - [New User (Sam)](#new-user-sam)
+    - [System Functional Requirements](#system-functional-requirements-2)
+    - [Acceptance Criteria](#acceptance-criteria-2)
+    - [Adding Activities to the Itinerary](#adding-activities-to-the-itinerary)
+- [Website Screenshots with Justifications](#website-screenshots-with-justifications)
+- [Colour Contrast Analysis](#colour-contrast-analysis)
+- [References](#references)
 
 
-
-
-
-
-
-
-
-
-
-
-## User personas:
+# User personas:
 
 
 
@@ -223,8 +237,37 @@ As a new user who enjoys travelling, I would like a easy and simple wesbtie in w
 
 ## References 
 
-Wanderlog. (n.d.). Wanderlog: travel itinerary, vacation & road trip planner. [online] Available at: https://wanderlog.com/.
+##Codes
+
+- Google Developers (2024) YouTube Player API Reference. Available at: https://developers.google.com/youtube/player_parameters (Accessed: 18 April 2026).
+- Mapbox (2024) Mapbox GL JS Documentation. Available at: https://docs.mapbox.com/mapbox-gl-js/guides/ (Accessed: 17 April 2026).
+- Mapbox (2024) Add markers to a map. Available at: https://docs.mapbox.com/mapbox-gl-js/example/add-markers-to-map/ (Accessed: 17 April 2026).
+- Mapbox (2024) Attach a popup to a marker. Available at: https://docs.mapbox.com/mapbox-gl-js/example/set-popup/ (Accessed: 17 April 2026).
+- MDN Web Docs (2024) HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 7 April 2026).
+- W3Schools (2024) HTML Tutorial. Available at: https://www.w3schools.com/html/ (Accessed: 7 April 2026).
+- W3Schools (2024) HTML Forms. Available at: https://www.w3schools.com/html/html_forms.asp (Accessed: 8 April 2026).
+- W3Schools (2024) HTML Links. Available at: https://www.w3schools.com/html/html_links.asp (Accessed: 8 April 2026).
+- W3Schools (2024) HTML Images. Available at: https://www.w3schools.com/html/html_images.asp (Accessed: 9 April 2026).
+- W3Schools (2024) HTML Lists. Available at: https://www.w3schools.com/html/html_lists.asp (Accessed: 10 April 2026).
+- W3Schools (2024) HTML Iframes. Available at: https://www.w3schools.com/html/html_iframe.asp (Accessed: 18 April 2026).
+- MDN Web Docs (2024) JavaScript. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript (Accessed: 14 April 2026).
+- MDN Web Docs (2024) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 10 April 2026).
+- W3Schools (2024) CSS Tutorial. Available at: https://www.w3schools.com/css/ (Accessed: 7 April 2026).
+- W3Schools (2024) CSS Flexbox. Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 8 April 2026).
+- W3Schools (2024) CSS Grid. Available at: https://www.w3schools.com/css/css_grid.asp (Accessed: 12 April 2026).
+- W3Schools (2024) CSS Variables. Available at: https://www.w3schools.com/css/css3_variables.asp (Accessed: 7 April 2026).
+- W3Schools (2024) CSS Positioning. Available at: https://www.w3schools.com/css/css_positioning.asp (Accessed: 10 April 2026).
+- W3Schools (2024) CSS Gradients. Available at: https://www.w3schools.com/css/css3_gradients.asp (Accessed: 10 April 2026).
+- W3Schools (2024) CSS Box Model. Available at: https://www.w3schools.com/css/css_boxmodel.asp (Accessed: 8 April 2026).
+- W3Schools (2024) CSS Colours. Available at: https://www.w3schools.com/css/css_colors.asp (Accessed: 9 April 2026).
+- W3Schools (2024) JavaScript Tutorial. Available at: https://www.w3schools.com/js/ (Accessed: 14 April 2026).
+- W3Schools (2024) JavaScript classList. Available at: https://www.w3schools.com/jsref/prop_element_classlist.asp (Accessed: 14 April 2026).
+- W3Schools (2024) JavaScript localStorage. Available at: https://www.w3schools.com/jsref/prop_win_localstorage.asp (Accessed: 15 April 2026).
+- W3Schools (2024) JavaScript HTML DOM. Available at: https://www.w3schools.com/js/js_htmldom.asp (Accessed: 15 April 2026).
+- W3Schools (2024) JavaScript forEach. Available at: https://www.w3schools.com/jsref/jsref_foreach.asp (Accessed: 16 April 2026).
+- W3Schools (2024) JavaScript prompt. Available at: https://www.w3schools.com/jsref/met_win_prompt.asp (Accessed: 16 April 2026).
+- W3C (2024) Web Content Accessibility Guidelines (WCAG) 2.1. Available at: https://www.w3.org/TR/WCAG21/ (Accessed: 12 April 2026).
 
 ## Credits
 
--  Pic credit https://www.freepik.com/free-photo/cheerful-guy-enjoying-outdoor-coffee-break_4997448.htm#fromView=keyword&page=1&position=0&uuid=39d7fa33-a5cd-412c-9554-111a53a0280a&query=25+year+old+man
+- Pic credit https://www.freepik.com/free-photo/cheerful-guy-enjoying-outdoor-coffee-break_4997448.htm#fromView=keyword&page=1&position=0&uuid=39d7fa33-a5cd-412c-9554-111a53a0280a&query=25+year+old+man
