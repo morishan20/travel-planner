@@ -23,7 +23,7 @@
     - [Acceptance Criteria](#acceptance-criteria-2)
     - [Adding Activities to the Itinerary](#adding-activities-to-the-itinerary)
 - [Website Screenshots with Justifications](#website-screenshots-with-justifications)
-- [Colour Contrast Analysis](#colour-contrast-analysis)
+- [Certifications](#certifications)
 - [References](#references)
 
 
@@ -213,6 +213,7 @@ As a new user who enjoys travelling, I would like a easy and simple wesbtie in w
 # Website screenshots with justifications: 
 
 ![homescreen light mode](https://github.com/user-attachments/assets/61e3c93b-d1b1-47e9-9dfa-10fd10153f0c)
+- 
 ![UXHomescreen1](https://github.com/user-attachments/assets/d72d2f56-fd18-42b5-a1b1-35ba6515c436)
 <img width="1064" height="684" alt="Screenshot 2026-03-08 at 15 55 01" src="https://github.com/user-attachments/assets/c348fc3e-4a4a-4b9c-ac08-5c6b0d9d166e" />
 <img width="1001" height="630" alt="Screenshot 2026-03-08 at 15 54 09" src="https://github.com/user-attachments/assets/fdc2c717-034b-46d0-bb45-a6999fd61a43" />
@@ -224,13 +225,26 @@ As a new user who enjoys travelling, I would like a easy and simple wesbtie in w
 
 
 ![UXTrips1](https://github.com/user-attachments/assets/c60e5c10-7da1-4aba-9184-9f7ed8aa1a9c)
+- This page marked as "Coming soon" in "start planning" button
 ![UXTrips2](https://github.com/user-attachments/assets/7c2d1113-693d-488f-91d3-a618e1e408d3)
+- This page marked as "Coming soon" in "start planning" button
 ![UXTrips3](https://github.com/user-attachments/assets/0b695793-2f18-4e2f-bd7b-66845b633cb2)
+- This page marked as "Coming soon" in "start planning" button
 ![UXTrips4](https://github.com/user-attachments/assets/70c67867-67d4-4d88-b503-2cc1e90432d3)
+- This page marked as "Coming soon" in "start planning" button
+<img width="940" height="1700" alt="BC0180B1-3DB3-4DAE-9D9F-DC7E802AA489" src="https://github.com/user-attachments/assets/6ab65c4b-b201-40b3-ad5e-bbe4bb7ffda8" />
+
+- changed the wireframe because normal navbar won't fit inside the mobile screen.
 
 
 
-## Colour Contrast Analysis
+## Certifications
+- <img width="876" height="841" alt="Screenshot 2026-04-22 at 15 46 38" src="https://github.com/user-attachments/assets/3d3a6b71-8f54-4bad-92ff-fa2bf03ab94a" />
+- <img width="882" height="846" alt="Screenshot 2026-04-22 at 15 48 18" src="https://github.com/user-attachments/assets/f5bf5a66-ea7b-440b-b20b-a96abc9bed4f" />
+- <img width="881" height="830" alt="Screenshot 2026-04-22 at 15 49 52" src="https://github.com/user-attachments/assets/8e008948-1872-4797-9483-5616858496ee" />
+
+
+
 
 <img width="1384" height="731" alt="Screenshot 2026-03-07 at 23 16 06" src="https://github.com/user-attachments/assets/5bf8ec40-0f40-46d1-9ab0-1a9697888494" />
 
@@ -269,5 +283,13 @@ As a new user who enjoys travelling, I would like a easy and simple wesbtie in w
 - W3C (2024) Web Content Accessibility Guidelines (WCAG) 2.1. Available at: https://www.w3.org/TR/WCAG21/ (Accessed: 12 April 2026).
 
 ## Credits
-
-- Pic credit https://www.freepik.com/free-photo/cheerful-guy-enjoying-outdoor-coffee-break_4997448.htm#fromView=keyword&page=1&position=0&uuid=39d7fa33-a5cd-412c-9554-111a53a0280a&query=25+year+old+man
+- pic credits for website
+- https://www.pexels.com/photo/eiffel-tower-2082103/
+- https://www.pexels.com/photo/tokyo-skyline-at-night-with-tokyo-tower-31558042/
+- https://unsplash.com/photos/panoramic-photography-of-brooklyn-bridge-_QdFx92MO2U
+- https://www.pexels.com/photo/sagrada-familia-in-barcelona-14948888/
+- https://www.pexels.com/photo/iconic-dubai-skyline-with-burj-khalifa-and-modern-architecture-31534273/
+- https://www.pexels.com/photo/big-ben-and-reflection-in-puddle-water-on-pavement-19821174/
+- https://www.pexels.com/photo/aerial-view-of-city-buildings-beside-the-lake-9564008/
+- https://www.pexels.com/photo/sydney-opera-house-and-harbour-view-in-daylight-36983183/<img 
+- https://www.freepik.com/free-photo/cheerful-guy-enjoying-outdoor-coffee-break_4997448.htm#fromView=keyword&page=1&position=0&uuid=39d7fa33-a5cd-412c-9554-111a53a0280a&query=25+year+old+man
