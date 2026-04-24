@@ -88,7 +88,7 @@
       <!-- Empty state: shown when this day has no activities yet -->
       <div class="no-activities" id="noActivities">
         <p>No activities planned for this day</p>
-        <button class="btn-teal" onclick="showAddActivityPopup()">Add First Activity</button>
+        <button class="btn-teal" onclick="showAddFirstActivityPopup()">Add First Activity</button>
       </div>
 
       
@@ -122,10 +122,13 @@
 
    
     function showAddActivityPopup() {
-      alert("This button will Show stored activities for that specific day");
+      alert("This button will add selected attractions to that specific day ");
       addActivity();
     }
-
+    function showAddFirstActivityPopup() {
+      alert("This button will Show stored activities for that specific day ");
+      addFirstActivity();
+    }
   
   </script>
 
